@@ -26,4 +26,4 @@ jobs:
           aws-region: us-west-2
       
       - name: Deploy static site to s3 bucket
-        run: aws s3 sync ./dist/github-s3-angular-app/ s3://github-s3-angular-app
+        run: aws s3 sync ./dist/angular-app-via-github-actions/ s3://angular-app-via-github-actions
